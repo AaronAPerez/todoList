@@ -75,7 +75,7 @@ stopEditing();
             onChange={(e) => setInput(e.target.value)}
           />
           <button className="addButton" onClick={() => addTodo(input)}>
-          <FcPlus />  Add
+          <FcPlus size={15} />  Add
           </button>
         </div>
         <ul>
@@ -91,6 +91,7 @@ stopEditing();
           {editingId === item.id ? (
                 <input
                   type="text"
+                  width={50}
                   value={editingText}
                   onChange={(e) => setEditingText(e.target.value)}
                   onBlur={() => stopEditing()}
@@ -105,9 +106,6 @@ stopEditing();
               ) : (
                 item.todo
               )}
-              <button onClick={() => deleteTodo(item.id)}>
-                <FaRegTrashCan color="red" size={20} />
-                </button>
               {/* <input
                 type="checkbox"
                 checked={item.isCompleted}
@@ -116,6 +114,9 @@ stopEditing();
               <button onClick={() => startEditing(item.id, item.todo)}>
               <TfiPencilAlt color="blue" size={20}/>
               </button>
+              <button onClick={() => deleteTodo(item.id)}>
+                <FaRegTrashCan color="red" size={20} />
+                </button>
             </li>
           ))}
         </ul>
