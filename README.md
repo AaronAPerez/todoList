@@ -18,7 +18,7 @@ Find two bugs and fix them.<br>
 1) Input was accepting null as a value. Null is no longer an acceptable value, Issue was solved by using a conditional (ternary) operator <br>
 2) The 3 editing functions caused issues. I added startediting, stopediting, and editing.
 
-<b>GitHub:</b> [[https://github.com/AaronAPerez/Counter_Component](https://github.com/AaronAPerez/DadJokesAPI)](https://github.com/AaronAPerez/todoList)](https://github.com/AaronAPerez/todoList)<br>
+<b>GitHub:</b> https://github.com/AaronAPerez/todoList<br>
 
 <b>Reviewed by:</b> Alicia Bryant <br>
 
