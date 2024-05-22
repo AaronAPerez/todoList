@@ -102,7 +102,7 @@ stopEditing();
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <button className="addButton" onClick={() => addTodo(input)}>
+          <button className="addButton" onClick={() => input ? addTodo(input) : null}>
           <FcPlus size={15} />  Add
           </button>
         </div>
