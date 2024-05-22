@@ -20,7 +20,7 @@ Find two bugs and fix them.<br>
 
 <b>GitHub:</b> [[https://github.com/AaronAPerez/Counter_Component](https://github.com/AaronAPerez/DadJokesAPI)](https://github.com/AaronAPerez/todoList)](https://github.com/AaronAPerez/todoList)<br>
 
-<b>Reviewed by:</b>  <br>
+<b>Reviewed by:</b> Alicia Bryant <br>
 
-<b>Comments:</b>   <br>
+<b>Comments:</b> This todo list was AMAZING. It did all it was supposed to do. I like the way you styled it per usual. Great Job.  <br>
 
