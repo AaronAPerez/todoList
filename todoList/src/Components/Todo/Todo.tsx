@@ -102,7 +102,7 @@ stopEditing();
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
-          <button className="addButton" onClick={() => input ? addTodo(input) : null}>
+          <button className="addButton" title="Add Task to List" onClick={() => input ? addTodo(input) : null}>
           <FcPlus size={15} />  Add
           </button>
         </div>
@@ -134,10 +134,10 @@ stopEditing();
               ) : (
                 item.todo
               )}
-              <button onClick={() => startEditing(item.id, item.todo)}>
+              <button title="Edit Task" onClick={() => startEditing(item.id, item.todo)}>
               <TfiPencilAlt color="blue" size={20}/>
               </button>
-              <button onClick={() => deleteTodo(item.id)}>
+              <button title="Delete Task" onClick={() => deleteTodo(item.id)}>
                 <FaRegTrashCan color="red" size={20} />
                 </button>
             </li>
